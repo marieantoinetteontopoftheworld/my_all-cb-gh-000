@@ -13,11 +13,11 @@ def my_all?(collection)
 
   j = 0
   while j < block_return_values.length
-    if j == false
+    if block_return_values[j] == false
       contains_false = true
     end
     j += 1
   end
 
-  contains_false
+  !contains_false
 end
