@@ -19,5 +19,5 @@ def my_all?(collection)
     j += 1
   end
 
-  !contains_false
+  contains_false
 end
